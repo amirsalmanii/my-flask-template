@@ -1,0 +1,8 @@
+{
+    "first_name" : "author",
+	"last_name" : "author lastname",
+	"project_name" : "My Project",
+	"license" : ["MIT", "BEER", "None"],
+	"postgres_user": "postgres",
+	"postgres_password": "postgres_password"
+}
