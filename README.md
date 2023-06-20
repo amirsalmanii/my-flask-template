@@ -21,3 +21,9 @@ docker-compose
 ```
 docker-compose -f ./docker-compose.dev.yml up -d
 ```
+
+flask run
+```
+export FLASK_APP=main.py
+flask run
+```
