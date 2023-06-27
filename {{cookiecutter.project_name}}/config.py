@@ -26,7 +26,8 @@ class TestingConfig(Config):
     
        
 class ProductionConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(BASE_DIR, 'production.sqlite')
+    uri = 'postgresql://{{cookiecutter.postgres_user}}:{{cookiecutter.postgres_password}}@localhost:5432/{{cookiecutter.postgres_db}}'
+    SQLALCHEMY_DATABASE_URI = uri
     
             
 config = {
