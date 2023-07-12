@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 class Config:
