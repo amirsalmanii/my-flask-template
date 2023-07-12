@@ -1,5 +1,5 @@
 """ green unicorn WSGI server configuration. """
-""" run: gunicorn -c gunicorn.conf.py config.wsgi & """
+""" run: gunicorn -c gunicorn.conf.py wsgi:app & """
 from multiprocessing import cpu_count
 from config import BASE_DIR
 
